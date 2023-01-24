@@ -1,5 +1,5 @@
 # Minerva Learning App Documentation
-This is a recreation of Quizlet Android App
+This is a partial recreation of Quizlet Android App
 
 ## Prerequisite:
 Please make sure your device have light sensor and accelerator sensor.
