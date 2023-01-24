@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/restart_notification"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="15dp"
+        android:layout_gravity="center"
+        android:alpha="0"
+        app:strokeColor="@color/gray"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_margin="10dp"
+            android:text="@string/try_again"
+            android:textColor="?attr/colorTertiary"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/restart_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/green"
+            android:text="@string/restart" />
+
+        <Button
+            android:id="@+id/end_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/end_game" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <GridLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="4"
+        tools:context=".MatchGameActivity">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/tile1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:autoSizeTextType="uniform"
+                android:text="@string/card1" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/tile2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:text="@string/card2" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/tile3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:text="@string/card3" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/tile4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:text="@string/card4" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/tile5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:text="@string/card5" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/tile6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:text="@string/card6" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/tile7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:text="@string/card7" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+
+            <TextView
+                android:id="@+id/tile8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:text="@string/card8" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/tile9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:text="@string/card9" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/tile10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:text="@string/card10" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/tile11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:text="@string/card11" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:tag="-1"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="?attr/colorTertiary"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/tile12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="?attr/colorTertiaryContainer"
+                android:text="@string/card12" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </GridLayout>
+
+
+
+</FrameLayout>

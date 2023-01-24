@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MinervaLearning</string>
+    <string name="username">USERNAME</string>
+    <string name="login">Login</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="app_logo">App Logo</string>
+
+
+    <string name="apply_btn">Apply</string>
+    <string name="dark_blue_and_white_rb">Dark Blue and White</string>
+    <string name="black_and_white_rb">Black and White</string>
+    <string name="enter_the_new_word">Enter the new word</string>
+    <string name="enter_the_new_definition">Enter the new definition</string>
+    <string name="save">Save</string>
+    <string name="info_tv">Drag the card to mark it as still learning or know, or you can also done it by tilt the phone left or right.</string>
+    <string name="know">1</string>
+    <string name="still_learning">1</string>
+    <string name="term">1</string>
+    <string name="arrow_forward">arrow forward</string>
+    <string name="arrow_back">arrow back</string>
+    <string name="info">info</string>
+    <string name="finish">Finish</string>
+    <string name="sharing">Share your score with friends</string>
+    <string name="try_again">Try again?\n You can also shake the phone to restart!</string>
+    <string name="restart">Restart</string>
+    <string name="end_game">End Game</string>
+    <string name="card1">1</string>
+    <string name="card2">2</string>
+    <string name="card3">3</string>
+    <string name="card4">4</string>
+    <string name="card5">5</string>
+    <string name="card6">6</string>
+    <string name="card7">7</string>
+    <string name="card8">8</string>
+    <string name="card9">9</string>
+    <string name="card10">10</string>
+    <string name="card11">11</string>
+    <string name="card12">12</string>
+    <string name="add_item">add_item</string>
+    <string name="title">Prepare your quiz</string>
+    <string name="quiz_info">UserA | 5 terms</string>
+    <string name="flashcard">flashcard</string>
+    <string name="flash_card_title">Flash Card</string>
+    <string name="flashcard_description">Review terms and definitions</string>
+    <string name="match_game">match game</string>
+    <string name="match_game_title">Match</string>
+    <string name="cards">Cards</string>
+    <string name="march_game_description">Match the terms to the definitions</string>
+    <string name="reminder">When environment is dark, the light sensor will auto switch to black and white theme. E.g. under 40 lux</string>
+    <string name="delete">delete</string>
+    <string name="term_word">thread</string>
+    <string name="term_definition">an execution unit in the process that has its own programme counter, stack, as well as a set of registers.</string>
+    <string name="player">1 | playerA</string>
+    <string name="settings">Settings</string>
+</resources>
