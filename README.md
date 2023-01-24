@@ -7,4 +7,4 @@ Please make sure your device have light sensor and accelerator sensor.
 ## Features
 
 ### Login Page
-![Alt text](../Screenshots/Login.png "image demo")
+![Alt text](https://github.com/technical-zebra/Minerval-Learning/tree/main/Screenshots/Login.png "image demo")
