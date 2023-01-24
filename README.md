@@ -8,28 +8,38 @@ Please make sure your device have a light sensor and a accelerator sensor.
 
 ### Login Page
 For a user to login.
+
+
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/Login.png "image demo")
 
 
 ### Prepare Quiz Page
 Editing the terms which include words and definitions used for the games.
+
+
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/Quiz1.png "image demo")
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/Quiz2.png "image demo")
 
 
 ### Add Term Page
 Add a term.
+
+
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/AddWord.png "image demo")
 
 
 ### FlashCard Page
 To remember words and corresponding definitions.
+
+
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/Flashcard1.png "image demo")
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/Flashcard2.png "image demo")
 
 
 ### Match Game Page
 Match words with definitions.
+
+
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/MatchGame.png "image demo")
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/MatchGame2.png "image demo")
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/MatchGame3.png "image demo")
@@ -37,17 +47,23 @@ Match words with definitions.
 
 ### Leaderboard Page
 Rank the time you complete the match game amongst all users had login in the devices. You are also able to share this app.
+
+
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/LeaderBoard1.png "image demo")
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/LeaderBoard2.png "image demo")
 
 
 ### Setting Page
 To change the theme.
+
+
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/Setting.png "image demo")
 
 
 ## Dark Theme
 Individual pages looks like under the dark theme.
+
+
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/DarkTheme1.png "image demo")
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/DarkTheme2.png "image demo")
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/DarkTheme3.png "image demo")
