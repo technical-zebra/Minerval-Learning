@@ -48,3 +48,10 @@ Please make sure your device have light sensor and accelerator sensor.
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/DarkTheme6.png "image demo")
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/DarkTheme7.png "image demo")
 ![Alt text](https://github.com/technical-zebra/Minerval-Learning/blob/main/Screenshots/DarkTheme8.png "image demo")
+
+## Animation
+An flip card animation is used in the FlashCard Page.
+
+
+## Music
+Different Music is played in the Quiz Page, the FlashCard Page, the Match Game Page, and the Leaderboard Page.
