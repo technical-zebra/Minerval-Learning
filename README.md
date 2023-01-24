@@ -2,7 +2,7 @@
 This is a partial recreation of Quizlet Android App
 
 ## Prerequisite:
-Please make sure your device have light sensor and accelerator sensor.
+Please make sure your device have a light sensor and a accelerator sensor.
 
 ## Features
 
@@ -55,3 +55,10 @@ An flip card animation is used in the FlashCard Page.
 
 ## Music
 Different Music is played in the Quiz Page, the FlashCard Page, the Match Game Page, and the Leaderboard Page.
+
+
+## Sensor
+The light sensor is used in the Setting Page to change theme automatically.
+
+
+The accelerator sensor is used in the the Match Game Page to restart the game.
