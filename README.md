@@ -1,2 +1,2 @@
-# Minerval-Learning
-A recreation of Quizlet App
+# Minerva Learning App Documentation
+This is a recreation of Quizlet Android App
