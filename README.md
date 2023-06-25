@@ -4,6 +4,13 @@ This is a partial recreation of Quizlet Android App
 ## Prerequisite:
 Please make sure your device have a light sensor and a accelerator sensor.
 
+## Google Play Store
+
+
+
+[Link](https://play.google.com/store/apps/details?id=sg.jcu.kezhang.minervalearning&hl=en-SG)
+
+
 ## Features
 
 ### Login Page
